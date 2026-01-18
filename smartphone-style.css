@@ -2,9 +2,9 @@
   .navbar{
   padding: 10px 20px;
 }
-.logo{
-  max-width: 220px;
-  height: 32px;
+.logo img{
+  max-width: 170px;
+  height: 30px;
 }
 .navbar ul{
   display: none;
@@ -15,5 +15,27 @@
 .menu{
   display: inline;
   cursor: pointer;
+}
+/* section-01 */
+.section-01 {
+    padding: 40px 20px;
+}
+.mic-glow-bg {
+    width: 200px;
+    height: 200px;
+}
+.mic-icon {
+    width: 70px;
+}
+.hero-content h1 {
+    font-size: 40px;
+}
+.hero-content p {
+    color: #FFFFFF;
+    font-size: 14px;
+}
+.btns {
+    padding: 8px 10px;
+    font-size: 14px;
 }
 }
