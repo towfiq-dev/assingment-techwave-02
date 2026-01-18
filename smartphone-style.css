@@ -1,0 +1,19 @@
+@media screen and (max-width:576px) {
+  .navbar{
+  padding: 10px 20px;
+}
+.logo{
+  max-width: 220px;
+  height: 32px;
+}
+.navbar ul{
+  display: none;
+}
+.btn{
+  display: none;
+}
+.menu{
+  display: inline;
+  cursor: pointer;
+}
+}
