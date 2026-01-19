@@ -1,0 +1,114 @@
+@media screen and (min-width:576px) and (max-width:992px) {
+  /* header-section */
+  .navbar{
+  padding: 20px 30px 10px 30px;
+}
+.logo img{
+  max-width: 180px;
+  height: auto;
+}
+.btn{
+  display: none;
+}
+.menu{
+  display: inline;
+  cursor: pointer;
+}
+/* section-01 */
+.section-01 {
+  padding: 60px 40px;
+}
+.mic-glow-bg {
+    width: 200px;
+    height: 200px;
+}
+.badge-new {
+    top: 17px;
+    right: -1px;
+}
+.hero-btns {
+    gap: 200px;
+}
+.section-02{
+  padding: 40px;
+}
+.podcast{
+  padding-bottom: 50px;
+}
+.grid-box{
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  padding-top: 40px;
+}
+/* section-03 */
+.section-03 {
+    padding: 40px;
+}
+    .grid-wrapper {
+        grid-template-areas: 
+            "premium mobile"
+            "global interview"
+            "resources resources";
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .cards {
+    padding: 20px;
+}
+.cards h3 {
+    font-size: 22px;
+}
+.cards p {
+    font-size: 14px;
+}
+/* section-04 */
+.section-04{
+  padding: 40px;
+}
+iframe{
+  width: 500px;
+  height: 300px;
+}
+.iframe{
+  flex-direction: column;
+  gap: 50px;
+}
+.description{
+  width: 500px;
+  height: 140px;
+  padding: 10px;
+}
+/* section-05 */
+.section-05{
+padding: 40px;
+}
+.section-05 h3{
+  margin-bottom: 30px;
+}
+.meet-host{
+  flex-direction: column;
+  padding: 25px 20px;
+  text-align: center;
+}
+.host-logo{
+  justify-content: center;
+}
+.host-logo img{
+  padding: 3px;
+}
+/* footer-section */
+.footer-section{
+  padding: 50px 40px;
+}
+.footer-icon{
+  gap: 20px;
+}
+.footer-logo img{
+  width: 250px;
+}
+.footer-icon a{
+  font-size: 14px;
+}
+.footer-section p{
+  font-size: 15px;
+}
+}

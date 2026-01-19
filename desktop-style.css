@@ -119,7 +119,7 @@
 .hero-btns {
     display: flex;
     justify-content: center;
-    gap: 25px;
+    gap: 100px;
 }
 .btns {
     text-decoration: none;
@@ -135,7 +135,7 @@
 .btn-spotify {
     background: linear-gradient(to right, #9100F8, #FB09B4, #F7E93F);
     color: #FFFFFF;
-    animation: spotifyPulse 2s infinite; 
+    animation: spotifyPulse 3s infinite; 
 }
 .btn-subscribe {
     border: 1px solid #00FF88;
@@ -149,7 +149,7 @@
 }
 
 .btn-spotify:hover {
-    animation: spotifyPulse 1s infinite; 
+    animation: spotifyPulse 3s infinite; 
     background: linear-gradient(to left, #9100F8, #FB09B4, #F7E93F);
 }
 .btn-subscribe:hover {
@@ -161,7 +161,7 @@
         transform: scale(1);
         box-shadow: 0 0 0 0 rgba(251, 9, 180, 0.7);
     }
-    70% {
+    50% {
         transform: scale(1.05);
         box-shadow: 0 0 0 15px rgba(251, 9, 180, 0);
     }
@@ -170,7 +170,7 @@
         box-shadow: 0 0 0 0 rgba(251, 9, 180, 0);
     }
 }
-/* .section-02 */
+/* section-02 */
 .section-02{
   background-color: #1A0B2E;
   padding: 50px 100px 120px 100px;
@@ -221,7 +221,6 @@ line-height: 20px;
     min-height: 100vh;
     padding: 100px;
 }
-
 .title {
     text-align: center;
     font-size: 48px;
@@ -245,16 +244,12 @@ line-height: 20px;
     transition: transform 0.3s ease;
     align-items: center;
 }
-
 .cards:hover {
     transform: translateY(-5px);
 }
-
-.icon {
-    font-size: 60px;
-    display: block;
+.icon{
+font-size: 60px;
 }
-
 .cards h3 {
     margin: 16px 0;
     font-size: 24px;
@@ -272,10 +267,10 @@ line-height: 20px;
 .global { grid-area: global; }
 .interview { grid-area: interview; }
 .resources { grid-area: resources; }
-
 /* section-04 */
 .section-04{
   padding: 100px;
+  padding-bottom: 0;
   background-color: #1A0B2E;
 }
 .section-04 h3{
@@ -286,17 +281,17 @@ line-height: 20px;
   color: #FFFFFF;
   margin-bottom: 40px;
 }
+iframe{
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
 .iframe{
   display: flex;
+  flex-wrap: wrap;
   gap: 50px;
   justify-content: center;
   align-items: center;
 }
-/* display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(1, 1fr);
-  gap: 15px;
-  margin: 0 auto; */
 .description{
   border: none;
   border-bottom-left-radius: 10px;
@@ -369,7 +364,7 @@ padding:100px;
   gap: 15px;
 }
 .host-logo img{
-  border: 1px solid #FB09B4;
+  border-top: 1px solid #FB09B4;
   padding: 5px;
   border-radius: 50%;
   cursor: pointer;
