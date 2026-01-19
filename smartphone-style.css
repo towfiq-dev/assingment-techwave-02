@@ -21,11 +21,11 @@
     padding: 40px 20px;
 }
 .mic-glow-bg {
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
 }
 .mic-icon {
-    width: 70px;
+    width: 65px;
 }
 .hero-content h1 {
     font-size: 38px;
@@ -102,8 +102,8 @@ font-size: 15px;
 }
 
 .iframe{
-  grid-template-columns: repeat(1, 1fr);
-  grid-template-rows: repeat(1, 1fr);
+  flex-direction: column;
+  gap: 50px;
 }
 .description h4{
   font-size: 20px;
@@ -128,11 +128,16 @@ font-size: 15px;
 
 /* section-05 */
 .section-05{
-padding: 0 20px;
+padding: 20px;
 }
 .section-05 h3{
   font-size: 38px;
   margin-bottom: 30px;
+}
+.footer-section p{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
 }
 .meet-host{
   flex-direction: column;
@@ -151,5 +156,33 @@ padding: 0 20px;
 }
 .host-logo img{
   padding: 3px;
+}
+/* footer-section */
+.footer-section{
+  padding: 50px 20px;
+  background-image: url(images/footer-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+.footer-icon{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+}
+.footer-logo img{
+  width: 200px;
+}
+.footer-icon a{
+  font-size: 14px;
+}
+.footer-section p{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 30px;
+  color: #FFFFFF;
 }
 }
