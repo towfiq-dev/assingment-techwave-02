@@ -1,6 +1,6 @@
 @media screen and (max-width:576px) {
   .navbar{
-  padding: 10px 20px;
+  padding: 20px 20px 10px 20px;
 }
 .logo img{
   max-width: 170px;
@@ -18,11 +18,15 @@
 }
 /* section-01 */
 .section-01 {
-    padding: 40px 20px;
+  padding: 60px 20px;
 }
 .mic-glow-bg {
     width: 180px;
     height: 180px;
+}
+.badge-new {
+    top: 15px;
+    right: -3px;
 }
 .mic-icon {
     width: 65px;
@@ -91,7 +95,6 @@ font-size: 15px;
 .cards p {
     font-size: 14px;
 }
-
 /* section-04 */
 .section-04{
   padding: 20px;
@@ -100,32 +103,21 @@ font-size: 15px;
   font-size: 33px;
   margin-bottom: 30px;
 }
-
 .iframe{
   flex-direction: column;
   gap: 50px;
 }
 .description h4{
   font-size: 20px;
-  font-weight: bold;
-  line-height: auto;
-  color: #FFFFFF;
 }
 .description p{
   font-size: 14px;
-  font-weight: 400;
-  line-height: 24px;
-  color: #FFFFFF;
-  text-align: justify;
-  margin: 10px 0;
+  line-height: 20px;
 }
 .description h5{
   font-size: 14px;
-  font-weight: 600;
-  line-height: 24px;
-  color: #00FF88;
+  line-height: 20px;
 }
-
 /* section-05 */
 .section-05{
 padding: 20px;
@@ -133,11 +125,6 @@ padding: 20px;
 .section-05 h3{
   font-size: 38px;
   margin-bottom: 30px;
-}
-.footer-section p{
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
 }
 .meet-host{
   flex-direction: column;
@@ -160,11 +147,6 @@ padding: 20px;
 /* footer-section */
 .footer-section{
   padding: 50px 20px;
-  background-image: url(images/footer-bg.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  text-align: center;
 }
 .footer-icon{
   display: grid;
@@ -179,10 +161,6 @@ padding: 20px;
   font-size: 14px;
 }
 .footer-section p{
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  margin-top: 30px;
-  color: #FFFFFF;
+  font-size: 14px;
 }
 }
