@@ -38,6 +38,9 @@
 .hero-content p {
     font-size: 14px;
 }
+.hero-btns {
+    gap: 35px;
+}
 .btns {
     padding: 7px 8px;
     font-size: 13px;
@@ -103,9 +106,18 @@ font-size: 15px;
   font-size: 33px;
   margin-bottom: 30px;
 }
+iframe{
+  width: 300px;
+  height: 190px;
+}
 .iframe{
   flex-direction: column;
   gap: 50px;
+}
+.description{
+  width: 299px;
+  height: 170px;
+  padding: 10px;
 }
 .description h4{
   font-size: 20px;

@@ -285,6 +285,10 @@ iframe{
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
+iframe{
+  width: 320px;
+  height: 190px;
+}
 .iframe{
   display: flex;
   flex-wrap: wrap;
@@ -297,7 +301,7 @@ iframe{
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   background-color: #250D44;
-  width: 315px;
+  width: 320px;
   height: 190px;
   padding: 8px;
   padding-right: 40px;
