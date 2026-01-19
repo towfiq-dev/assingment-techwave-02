@@ -125,4 +125,31 @@ font-size: 15px;
   line-height: 24px;
   color: #00FF88;
 }
+
+/* section-05 */
+.section-05{
+padding: 0 20px;
+}
+.section-05 h3{
+  font-size: 38px;
+  margin-bottom: 30px;
+}
+.meet-host{
+  flex-direction: column;
+  padding: 25px 20px;
+  text-align: center;
+}
+.host h4{
+  font-size: 28px;
+}
+.host p{
+  font-size: 14px;
+  line-height: 20px;
+}
+.host-logo{
+  justify-content: center;
+}
+.host-logo img{
+  padding: 3px;
+}
 }
