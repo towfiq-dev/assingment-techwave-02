@@ -63,6 +63,36 @@ font-size: 15px;
   font-size: 15px;
 }
 /* section-03 */
+.section-03 {
+    padding: 20px;
+}
+    .grid-wrapper {
+        grid-template-areas: 
+            "premium"
+            "mobile"
+            "global"
+            "interview"
+            "resources";
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .title {
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+    .cards {
+    padding: 20px;
+}
+.icon {
+    font-size: 50px;
+}
+.cards h3 {
+    font-size: 22px;
+}
+.cards p {
+    font-size: 14px;
+}
+
+/* section-04 */
 .section-04{
   padding: 20px;
 }

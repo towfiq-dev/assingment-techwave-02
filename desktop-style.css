@@ -162,6 +162,7 @@
   background-color: #1A0B2E;
   padding: 50px 100px 120px 100px;
   text-align: center;
+  color: #FFFFFF;
 }
 .podcast{
   padding-bottom: 80px;
@@ -170,7 +171,6 @@
 font-size: 48px;
 font-weight: bold;
 line-height: auto;
-color: #FFFFFF;
 margin-bottom: 16px;
 }
 .podcast p{
@@ -178,7 +178,6 @@ display: inline;
 font-size: 16px;
 font-weight: 400;
 line-height: 20px;
-color: #FFFFFF;
 }
 .grid-box{
   display: grid;
@@ -199,8 +198,67 @@ color: #FFFFFF;
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
-  color: #FFFFFF;
 }
+/* section-03 */
+.section-03 {
+    background-color: #230E3D;
+    color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 100px;
+}
+
+.title {
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: auto;
+    margin-bottom: 40px;
+}
+.grid-wrapper {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: 
+        "premium mobile mobile"
+        "premium global global"
+        "interview interview resources";
+}
+.cards {
+    background-color: rgba(53, 17, 101, 0.4);
+    padding: 40px;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+}
+
+.cards:hover {
+    transform: translateY(-5px);
+}
+
+.icon {
+    font-size: 60px;
+    display: block;
+}
+
+.cards h3 {
+    margin: 16px 0;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: auto;
+    color: #FFFFFF;
+}
+.cards p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.premium { grid-area: premium; }
+.mobile { grid-area: mobile; }
+.global { grid-area: global; }
+.interview { grid-area: interview; }
+.resources { grid-area: resources; }
+
 /* section-04 */
 .section-04{
   padding: 100px;
@@ -219,6 +277,7 @@ color: #FFFFFF;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(1, 1fr);
   gap: 15px;
+  justify-content: center;
 }
 .description{
   border: none;
