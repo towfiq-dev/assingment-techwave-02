@@ -43,7 +43,7 @@
 }
 .btns {
     padding: 8px;
-    font-size: 13px;
+    font-size: 12px;
 }
 /* .section-02 */
 .section-02{
@@ -67,7 +67,7 @@ font-size: 15px;
   font-size: 40px;
 }
 .card p{
-  font-size: 15px;
+  font-size: 13px;
 }
 /* section-03 */
 .section-03 {
@@ -173,6 +173,6 @@ padding: 20px;
   font-size: 14px;
 }
 .footer-section p{
-  font-size: 14px;
+  font-size: 12px;
 }
 }
