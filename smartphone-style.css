@@ -36,14 +36,15 @@
     font-size: 40px;
 }
 .hero-content p {
-    font-size: 14px;
+    font-size: 15px;
 }
 .hero-btns {
+  flex-wrap: wrap;
     gap: 30px;
 }
 .btns {
-    padding: 8px;
-    font-size: 12px;
+    padding: 8px 13px;
+    font-size: 15px;
 }
 /* .section-02 */
 .section-02{
@@ -96,7 +97,7 @@ font-size: 15px;
     font-size: 22px;
 }
 .cards p {
-    font-size: 14px;
+    font-size: 15px;
 }
 /* section-04 */
 .section-04{
@@ -147,14 +148,15 @@ padding: 20px;
   font-size: 24px;
 }
 .host p{
-  font-size: 14px;
+  font-size: 15px;
   line-height: 20px;
 }
 .host-logo{
   justify-content: center;
 }
-.host-logo img{
-  padding: 4px;
+.child-logo{
+  padding-left: 0px;
+  padding-top: 10px;
 }
 /* footer-section */
 .footer-section{
@@ -174,7 +176,7 @@ padding: 20px;
   font-size: 14px;
 }
 .footer-section p{
-  font-size: 12px;
+  font-size: 14px;
   margin-top: 40px;
 }
 }

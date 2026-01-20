@@ -102,8 +102,8 @@ padding: 40px;
 .host-logo{
   justify-content: center;
 }
-.host-logo img{
-  padding: 3px;
+.child-logo{
+  padding-right: 10px;
 }
 /* footer-section */
 .footer-section{
